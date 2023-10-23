@@ -11,18 +11,39 @@
     </style>
   </head>
   <body class="bg-gray-100">
-    <header class="bg-blue-600 text-white p-4">
-      <div class="container mx-auto">
-        <h1 class="text-4xl font-bold">Wintx LLC</h1>
-        <p class="text-lg">Your Partner in Web Application Development</p>
+    <header class="bg-white text-blue-800 p-4 shadow-md">
+      <div class="container mx-auto flex items-center">
+        <img
+          src="/static/images/logo-wintx.png"
+          alt="Wintx LLC"
+          class="h-12 mr-4"
+        />
+        <div>
+          <h1 class="text-4xl font-bold">Wintx LLC</h1>
+          <p class="text-lg">Your Partner in Web Application Development</p>
+        </div>
       </div>
     </header>
-
     <section class="py-12">
       <div class="container mx-auto text-center">
         <h2 class="text-3xl font-semibold mb-4">Our Specializations</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div class="bg-white rounded-lg p-6 shadow-md">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+          <div class="bg-white rounded-lg p-6 shadow-md m-2">
+            <h3 class="text-xl font-semibold mb-2">Next.js</h3>
+            <p class="text-gray-600">
+              Leveraging Next.js, we deliver fast and SEO-friendly web
+              applications.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg p-6 shadow-md m-2">
+            <h3 class="text-xl font-semibold mb-2">React</h3>
+            <p class="text-gray-600">
+              We create dynamic and interactive user interfaces using React.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg p-6 shadow-md m-2">
             <h3 class="text-xl font-semibold mb-2">Python</h3>
             <p class="text-gray-600">
               We excel in Python development, building powerful and efficient
@@ -30,25 +51,10 @@
             </p>
           </div>
 
-          <div class="bg-white rounded-lg p-6 shadow-md">
+          <div class="bg-white rounded-lg p-6 shadow-md m-2">
             <h3 class="text-xl font-semibold mb-2">Ruby on Rails</h3>
             <p class="text-gray-600">
               Our expertise in Ruby on Rails ensures robust and scalable web
-              applications.
-            </p>
-          </div>
-
-          <div class="bg-white rounded-lg p-6 shadow-md">
-            <h3 class="text-xl font-semibold mb-2">React</h3>
-            <p class="text-gray-600">
-              We create dynamic and interactive user interfaces using React.
-            </p>
-          </div>
-
-          <div class="bg-white rounded-lg p-6 shadow-md">
-            <h3 class="text-xl font-semibold mb-2">Next.js</h3>
-            <p class="text-gray-600">
-              Leveraging Next.js, we deliver fast and SEO-friendly web
               applications.
             </p>
           </div>
@@ -56,19 +62,26 @@
       </div>
     </section>
 
-    <section class="bg-blue-600 text-white py-12">
+    <section class="py-12 bg-blue-200">
       <div class="container mx-auto text-center">
-        <h2 class="text-3xl font-semibold mb-4">Our Deployment Expertise</h2>
-        <p class="text-xl">
-          We specialize in deploying applications using Docker, Kubernetes, and
-          Linux.
-        </p>
+        <div class="grid grid-cols-1">
+          <div class="bg-blue-300 rounded-lg p-6 shadow-md m-2">
+            <h2 class="text-2xl font-semibold mb-4">
+              Our Deployment Expertise
+            </h2>
+            <div class="text-lg">
+              We specialize in deploying applications using Docker, Kubernetes,
+              and Linux.
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <footer class="bg-gray-800 text-white py-4">
-      <div class="container mx-auto text-center">
+    <footer class="bg-gray-200 text-white py-4 shadow-md">
+      <div class="container mx-auto text-center text-gray-600">
         <p>&copy; 2023 Wintx LLC. All rights reserved.</p>
+        <p><a href="mailto:info@wintx.pro">info@wintx.pro</a></p>
       </div>
     </footer>
   </body>
