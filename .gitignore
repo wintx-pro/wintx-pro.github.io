@@ -1,2 +1,4 @@
 .DS_Store
 tailwind-landing-page-template/
+node_modules/
+logo-wintx.*
